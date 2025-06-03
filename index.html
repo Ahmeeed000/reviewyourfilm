@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+ <html lang="en">
+    <meta chrset="UTF-8">
+    <meta name="author" content="Ahmed Farid">
+    <meta name="descritpion" content="Rate & review your favorite medium">
+  <head>
+     <title> Rate your favorites </title>
+     <link rel="stylesheet" href="styles.css">
+     <link rel="icon" href="icon.png">
+  </head>
+   <body>
+    <div class="btns">
+      <ul>
+        <li><a href="">community</a></li>
+        <li><a href="">recommdations</a></li>
+        <li><a href="">contact us</a></li>
+      </ul>
+    </div>
+    <div class="top-section">
+      <h1 class="title"> Review <span class="nvm"> your favorite films </span> </h1>
+      <div class="description">
+        People should always pursue to do their own documentary of whatever film it impacted them,
+        By pursuing your own film making, a major shift in your perspective into life, we share our thoughts, analysis and 
+        documentaries with others by adding out favorite films we experienced as it is one of the best forms of mediums as with 
+        creating a suspense in time and to it's various options.         
+          <br>
+          <br>
+      </div>
+ <div class="form">
+  <fieldset>
+    <legend class="fieldset">Submit your favorite film</legend><br>
+
+    <!-- Film name -->
+    <label for="filmName">Write the film:</label>
+    <input type="text" name="name" id="filmName" placeholder="Write the Name"><br><br>
+
+    <!-- Genre -->
+    <label for="genre">Pick the Genre</label>
+    <select name="Genre" id="genre">
+      <option value="Action">Action</option>
+      <option value="Romance">Romance</option>
+      <option value="Comedy">Comedy</option>
+      <option value="Mystery">Mystery</option>
+      <option value="Psychological">Psychological</option>
+      <option value="Adventure">Adventure</option>
+      <option value="History">History</option>
+      <option value="Horror">Horror</option>
+      <option value="Thriller">Thriller</option>
+    </select><br><br>
+
+    <!-- Release date -->
+    <label for="releaseDate">Documentary Release date</label>
+    <input type="number" name="date" id="releaseDate" min="2025" max="2025" value="2025" step="1">
+    <input type="month" name="date" id="releaseDate" min="2025" max="2025" value="2025" step="1"><br><br>
+
+    <!-- Watch date -->
+    <label for="watchDate">Watch date</label>
+    <input type="text" name="watchDate" id="watchDate"><br><br>
+
+    <!-- Review -->
+    <label for="review">Your review</label><br><br>
+    <textarea class="area" name="review" id="review" placeholder="Your review"></textarea>
+  </fieldset>
+</div>
+       <br>
+      <button class="btn"> Submit </button>
+</div>
+        
+      </div>
+      </body>
+      <footer>
+        <div>
+          <br><br><br><br><br><br><br><br>
+        </div>
+      </footer>
+ </html>

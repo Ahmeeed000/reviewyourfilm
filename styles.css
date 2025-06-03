@@ -1,0 +1,99 @@
+body {
+    margin: 30px 0px 30px 40px;
+    color: black;
+    font-family: Luxomona;   
+    font-size: large;
+    font-weight: normal;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://64.media.tumblr.com/9d6dc75fd757290a7e2fd5d07caaadb9/9740367a8342b78a-e7/s540x810/bb461c243ed735a835179892b73487966491cb23.gif");    
+}
+
+
+.title {
+    font-size: 40px;
+    margin-top: 0;
+}
+
+.btns {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 10px; /* optional: spacing between items */
+    margin: 0;
+    padding: 0;
+    font-size: x-large;
+    position: absolute;  /* position it top-right */
+    top: 20px;
+    right: 20px;
+    color: greenyellow;
+}
+
+
+.top-section {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-top: 0;
+}
+
+
+
+@font-face {
+    font-family: Luxomona;
+    src: url("Luxomona.ttf");
+}
+
+.description {
+    font-family:Arial, Helvetica, sans-serif;
+    width: 700px;
+    font-display: block;
+    font-weight: lighter;
+}
+
+.btn {
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 35px;
+    width: 80px;
+    height: 42px;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 14px;    
+    background-color: lightgray;
+    padding: 10px;
+}
+
+.nvm {
+    color: greenyellow;
+    text-shadow: -1px -1px 0 black,
+     1px -1px 4px black,
+    -1px  1px 4px black,
+     1px  1px 4px black;
+}
+
+.form {
+   width: 600px;
+   height: 300px;
+   display: block;
+   margin-right: 300px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: lighter;
+}
+
+.fieldset {
+  font-weight: lighter;
+  font-family: Luxomona; 
+  font-size: x-large;
+  color: greenyellow;
+  text-shadow: -1px -1px 0 black,
+     1px -1px 4px black,
+    -1px  1px 4px black,
+     1px  1px 4px black
+}
+
+.area {
+  color: lightslategrey;
+  height: 100%;
+  width: 100%;
+}
